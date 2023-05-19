@@ -1,0 +1,155 @@
+.content {
+    padding-top: 1.9rem;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form > h2 {
+    margin: 0;
+}
+
+#contact-form > form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form > form > * {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+.contact-form-input {
+    border: 1px #232323 solid;
+}
+
+#contact-form-textarea {
+    resize: none;
+    border: 1px #232323 solid;
+}
+
+::placeholder {
+    color: #b9944a;
+}
+
+.submit-button {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 3px;
+    color: #C89632;
+    background: #232323;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.3rem;
+    text-align:center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    text-decoration: none;
+}
+
+.submit-button:hover {
+    color: #232323;
+    background: #C89632;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    background-color: #232323;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+#info-map {
+    height: 42.2rem;
+    width: 30rem;
+}
+
+#contact-cards {
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    grid-template-rows: 49% 2% 49%;
+}
+
+#card1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#card2 {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+#card3 {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+#card4 {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.separator-v {
+    width: 0.1rem;
+    height: 16rem;
+    align-self: center;
+    background-color: #C89632;
+}
+
+.separator-h {
+    width: 10rem;
+    height: 0.1rem;
+    justify-self: center;
+    background-color: #C89632;
+}
+
+#separator-v-1 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#separator-v-2 {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#separator-h-1 {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#separator-h-2 {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.card > p {
+    text-align: center;
+    color: #C89632;
+    margin-top: 0.5rem;
+}

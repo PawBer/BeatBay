@@ -1,0 +1,259 @@
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+html p {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100%;
+}
+
+.heading-main > h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.heading-main > hr {
+    color: #C89632;
+    width: 6rem;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.topbar-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    padding-left: 13.5rem;
+    padding-right: 13.5rem;
+    height: 5rem;
+    background-color: #252525;
+    margin-top: auto;
+}
+
+.logo-container {
+    position: relative;
+    z-index: 2;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+    margin-left: 1rem;
+    background-color: white;
+    box-shadow: 0px 10px 20px -12px rgba(0,0,0,0.62);
+}
+
+.menu {
+    display: flex;
+    align-items: end;
+    margin-left: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.menu > a {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #C89632;
+    margin: 0.8rem;
+    margin-bottom: 0;
+}
+
+.topbar > .social-media {
+    margin-left: auto;
+    margin-bottom: 0.25rem;
+    align-self: flex-end;
+}
+
+.topbar > .social-media > img {
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+}
+
+.topbar > .social-media > #facebook {
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+
+.topbar > .social-media > #tiktok {
+    position: relative;
+    top: 2px;
+}
+
+.topbar-container > .decoration {
+    position: relative;
+    z-index: 1;
+    background-color: #C89632;
+    width: 100%;
+    height: 0.9rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 100%;
+    height: fit-content;
+    margin-top: auto;
+}
+
+.footer-container > .decoration {
+    background-color: #C89632;
+    width: 100%;
+    height: 0.9rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 13.5rem;
+    padding-right: 13.5rem;
+    height: fit-content;
+    background-color: #252525;
+}
+
+#copyright {
+    align-self: center;
+    height: fit-content;
+}
+
+#copyright > p {
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+    color: #665e4e;
+    align-self: flex-end;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    flex: 1
+}
+
+.footer-contact > * {
+    margin-bottom: 0 !important;
+    align-self: center;
+    margin: 1rem;
+}
+
+.footer-contact > .address {
+    margin-left: 0;
+}
+
+.footer-contact > .address > p {
+    font-size: 1.3rem;
+}
+
+.footer-contact > .address > p:first-child {
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+
+.footer-contact > .phone-email > div > p:first-child {
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+
+.footer-contact > .phone-email > div:first-child {
+    margin-bottom: 0.25em;
+}
+
+.footer-contact > .footer-menu > a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0.05em;
+}
+
+.footer-contact p {
+    color: #C89632;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: #C89632;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#return-to-top {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+#return-to-top a {
+    color: #C89632;
+    text-decoration: none;
+}
+
+#return-to-top svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#social-media-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+    align-self: center;
+    flex: 1;
+}
+
+#social-media-footer > .social-media-footer-item:last-child {
+    margin-bottom: 0;
+}
+
+.social-media-footer-item {
+    display: flex;
+    flex-direction: row;
+    width: 6.4rem;
+    margin: 0.2em;
+}
+
+.social-media-footer-item > img {
+    align-self: center;
+    margin-right: 0.5em;
+}
+
+.social-media-footer-item > p {
+    color: #C89632;
+    margin: 0;
+}
+
+

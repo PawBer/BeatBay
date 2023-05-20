@@ -18,6 +18,10 @@ body {
     min-height: 100%;
 }
 
+.heading-main {
+    margin-top: 1.75rem;
+}
+
 .heading-main > h1 {
     margin: 0;
     font-size: 2.5rem;
@@ -34,6 +38,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding-bottom: 0.5rem;
 }
 
 .topbar-container {

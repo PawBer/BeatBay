@@ -1,0 +1,232 @@
+h2 {
+    margin-top: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    margin: 0rem;
+    margin-bottom: 1rem;
+}
+
+#main-content > p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.heading-main {
+    margin-bottom: 1rem;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.genre p {
+    color: #C89632;
+}
+
+.genre {
+    display: flex;
+    flex-direction: row;
+    background-color: #232323;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.genre-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+}
+
+.genre-icon > p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.genre-icon > img {
+    margin-top: 2rem;
+    width: 11rem;
+    height: 11rem;
+}
+
+.genre-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.genre-description {
+    flex: 1;
+}
+
+.genre-description > p:first-child {
+    font-weight: bold;
+}
+
+.genre-description > p:nth-child(2) {
+    text-align: justify;
+    font-size: 1.35rem;
+}
+
+.artists > p:first-child {
+    font-weight: bold;
+}
+
+.artists > p:nth-child(2) {
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+.albums > p:first-child {
+    font-weight: bold;
+}
+
+.albums > p:nth-child(2) {
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+.new > p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.new-album-photos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.album {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.album > img {
+    width: 100%;
+    height: 14rem;
+}
+
+.album > p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+#turntable-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #232323;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.turntable-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem
+}
+
+.turntable-card > p {
+    margin-top: 0.5rem;
+    color: #C89632;
+    text-align: center;
+}
+
+.turntable-photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 93%;
+    padding: 0.5rem;
+    background-color: #C89632;
+}
+
+.turntable-photo-container > img {
+    width: 75%;
+    height: auto;
+}
+
+#merch-cards {
+    display: flex;
+    align-items: row;
+    gap: 2rem;
+    width: 100%;
+}
+
+.merch-card {
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #232323;
+}
+
+.merch-card p {
+    color: #C89632;
+    text-align: center;
+}
+
+.header > p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header {
+    margin-bottom: 1rem;
+}
+
+.merch-card-photo-container {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.merch-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.merch-photo > p {
+    margin-top: 1rem;
+}
+
+.merch-photo-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #C89632;
+}
+
+.merch-photo-container > img {
+    height: 80%;
+    width: auto;
+}

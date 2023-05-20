@@ -1,0 +1,89 @@
+h2 {
+    margin-top: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    margin: 0rem;
+}
+
+p {
+    text-align: justify;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#introduction {
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.owner {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+.owner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.8rem;
+}
+
+.owner-info > p {
+    text-align: justify;
+}
+
+.owner > img {
+    width: 150px;
+    height: 150px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
+    background-color: #232323;
+}
+
+.photo > p {
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+    color: #C89632;
+}
+
+.photo > img {
+    width: 175px;
+    height: 130px;
+}
+
+#story-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+#photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+#story-text > p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+

@@ -1,7 +1,3 @@
-.content {
-    padding-top: 1.9rem;
-}
-
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -108,13 +104,13 @@
 
 .separator-v {
     width: 0.1rem;
-    height: 16rem;
+    height: 16.5rem;
     align-self: center;
     background-color: #C89632;
 }
 
 .separator-h {
-    width: 10rem;
+    width: 12rem;
     height: 0.1rem;
     justify-self: center;
     background-color: #C89632;
@@ -145,11 +141,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 2rem;
+    margin: 3rem;
 }
 
 .card > p {
     text-align: center;
     color: #C89632;
     margin-top: 0.5rem;
+    font-size: 1.25rem;
 }

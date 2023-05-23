@@ -43,6 +43,21 @@
     margin-bottom: 3rem;
 }
 
+#greeting {
+    display: flex;
+}
+
+#greeting > h1 {
+    display: flex;
+    font-size: 4.5rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+#greeting > h1:nth-child(2) {
+    color: #C89632;
+}
+
 .text-and-button {
     margin-right: 2rem;
 }
@@ -52,9 +67,9 @@
 }
 
 .text-and-button > p {
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
-    width: 36.45rem;
+    width: 42rem;
 }
 
 .main-image {
